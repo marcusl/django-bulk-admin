@@ -6,6 +6,7 @@ from django.contrib import admin, messages
 from django.contrib.admin.exceptions import DisallowedModelAdminToField
 from django.contrib.admin.options import IS_POPUP_VAR, InlineModelAdmin, TO_FIELD_VAR, csrf_protect_m
 from django.contrib.admin.templatetags.admin_urls import add_preserved_filters
+from django.templatetags.static import static
 from django.contrib.admin.utils import NestedObjects, flatten_fieldsets
 from django.core.exceptions import PermissionDenied, ValidationError
 from django.db import router, transaction
