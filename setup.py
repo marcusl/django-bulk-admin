@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-bulk-admin-marcusl',
-    version='0.2.0',
+    version='0.2.0-alpha-1',
     packages=find_packages(exclude=('example_project*', 'screenshots',)),
     include_package_data=True,
     license='BSD',
