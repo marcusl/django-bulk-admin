@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.2.0
+-----
+* Support for latest Django 2.3
+
 0.1.1
 -----
 
