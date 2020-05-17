@@ -1,9 +1,10 @@
 db.sqlite3
 env/
 media/
-*.pyc
+build/
+dist/
+*.egg-info/
+dist/*.pyc
 .DS_Store
 .python-version
 .tox
-*.egg-info/
-build/

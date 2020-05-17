@@ -8,18 +8,18 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-bulk-admin-maso',
+    name='django-bulk-admin-marcusl',
     version='0.2.0',
     packages=find_packages(exclude=('example_project*', 'screenshots',)),
     include_package_data=True,
     license='BSD',
     description='Django bulk admin enables you to bulk add, bulk edit, bulk upload and bulk select in django admin.',
     long_description=README,
-    url='https://github.com/purelabs/django-bulk-admin',
+    url='https://github.com/marcusl/django-bulk-admin',
     author='Marcus Sonestedt',
     author_email='marcus.s.lindblom@gmail.com',
     install_requires=[
-        'Django>=2.0+',
+        'Django>=2.2+',
     ],
     classifiers=[
         'Environment :: Web Environment',
