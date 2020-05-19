@@ -8,6 +8,7 @@ View the screenshots below to get an idea of how django bulk admin does look lik
 
 Requires Django >= 1.7.
 
+Available on PyPi as https://pypi.org/project/django-bulk-admin-marcusl/
 
 ===========
 Quick start
